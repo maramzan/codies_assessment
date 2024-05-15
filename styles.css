@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .search-container {
+    max-width: 800px;
+    margin: 40px auto;
+  }
+.question-block {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .code-snippet {
+    display: none;
+  }
+  
+  .show-code-btn {
+    background-color: #0088ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .show-code-btn:hover {
+    background-color: #0066ff;
+  }
+  
+  .show-code-btn.clicked + .code-snippet {
+    display: block;
+  }
+  .description {
+    margin: 20px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+.description small {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+}
+.fetchButton {
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.fetchButton:hover {
+    background-color: #45a049;
+}

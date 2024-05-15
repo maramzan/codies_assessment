@@ -3,26 +3,153 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      /* Add some basic styling */
-      body {
-        font-family: Arial, sans-serif;
-      }
-      .search-container {
-        max-width: 800px;
-        margin: 40px auto;
-      }
-    </style>
+    <title>ESS Assessment</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
-    <button id="fetchButton">Fetch Data</button>
-    <div id="dataContainer"></div>
-    <div class="search-container">
-      <input type="search" id="search-input" placeholder="Search for books" />
-      <button id="search-button">Search</button>
-      <div id="search-results"></div>
+    <div class="question-block">
+      <h2>Question 1</h2>
+      <p>Write a function to reverse a given string.</p>
+      <button class="show-code-btn" id="show-btn1">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet1">
+        </code>
+      </pre>
     </div>
-    <script src="./index.js"></script>
+
+    <div class="question-block">
+      <h2>Question 2</h2>
+      <p>Create a class called Car with properties and methods.</p>
+      <button class="show-code-btn" id="show-btn2">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet2">
+        </code>
+      </pre>
+    </div>
+
+    <div class="question-block">
+      <h2>Question 3</h2>
+      <p>
+        Asynchronous JavaScript:Write a function `fetchUserData()` that
+        asynchronously fetches user data from
+        `https://jsonplaceholder.typicode.com/users/1`.
+      </p>
+      <button class="show-code-btn" id="show-btn3">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet3">
+        </code>
+      </pre>
+    </div>
+
+    <div class="question-block">
+      <h2>Question 4</h2>
+      <p>
+        DOM Manipulation:Create an HTML page with a button and a div element.
+        When the button is clicked, fetch data from a public API and display it
+        in the div element
+      </p>
+      <div class="description">
+        <small>
+          Click Fetch Data button, It will fetch a user from the api and show
+          name, username and email
+        </small>
+      </div>
+      <button id="fetchButton" class="fetchButton">Fetch Data</button>
+      <div id="dataContainer"></div>
+      <button class="show-code-btn" id="show-btn4">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet4">
+        </code>
+      </pre>
+    </div>
+
+    <div class="question-block">
+      <h2>Question 5</h2>
+      <p>Testing:Write unit tests for the `reverseString` function.</p>
+      <button class="show-code-btn" id="show-btn5">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet5">
+        </code>
+      </pre>
+    </div>
+
+    <div class="question-block">
+      <h2>Question 6</h2>
+      <p>
+        Advanced JavaScript Concepts:Implement a function `mergeArrays(arr1,
+        arr2)` to merge and sort two arrays of integers.
+      </p>
+      <button class="show-code-btn" id="show-btn6">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet6">
+        </code>
+      </pre>
+    </div>
+
+    <div class="question-block">
+      <h2>Question 7</h2>
+      <p>
+        Functional Programming:Write a function `filterUnique(arr)` to filter
+        unique elements from an array using functional programming concepts.
+      </p>
+      <button class="show-code-btn" id="show-btn7">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet7">
+        </code>
+      </pre>
+    </div>
+
+    <div class="question-block">
+      <h2>Question 8</h2>
+      <p>
+        Error Handling and Debugging:Extend `fetchUserData` function to handle
+        errors gracefully.
+      </p>
+      <button class="show-code-btn" id="show-btn8">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet8">
+        </code>
+      </pre>
+    </div>
+
+    <div class="question-block">
+      <h2>Question 9</h2>
+      <p>
+        Web Development:Create a web application to search for books using the
+        Google Books API.
+      </p>
+      <div class="search-container">
+        <input type="search" id="search-input" placeholder="Search for books" />
+        <button id="search-button">Search</button>
+        <div id="search-results"></div>
+      </div>
+      <div class="description">
+        <small>
+          Search for books by typing in the search box and click search button
+        </small>
+      </div>
+      <button class="show-code-btn" id="show-btn9">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet9">
+        </code>
+      </pre>
+    </div>
+
+    <div class="question-block">
+      <h2>Question 10</h2>
+      <p>
+        Performance Optimization:Optimize the `filterUnique` function for large
+        arrays.
+      </p>
+      <button class="show-code-btn" id="show-btn10">Show Code</button>
+      <pre class="code-snippet">
+        <code id="code-snippet10">
+        </code>
+      </pre>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./script2.js"></script>
   </body>
 </html>
