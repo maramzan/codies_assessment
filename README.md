@@ -10,17 +10,13 @@ The `index.html` file contains the structure of the project. It includes a serie
 
 There are two JavaScript files in this project: `script.js` and `script2.js`.
 
+## CSS File
+
+There is one CSS file in this project: `styles.css`.
+
 ### script.js
 
-The `script.js` file contains the code that solves each of the problems. Each solution is contained within its own function. Here's a brief overview of each function:
-
-1. `reverseString(str)`: This function takes a string `str` as an argument, splits it into an array of characters, reverses the array, and then joins it back into a string.
-
-2. `reverseString2(str)`: This function also takes a string `str` as an argument, but it reverses the string using a for loop.
-
-3. `Car`: The `Car` class is a basic example of object-oriented programming in JavaScript. It has a constructor that takes `make`, `model`, and `year` as arguments, and it has two methods: `accelerate()` and `brake()`.
-
-4. `fetchUserData()`: The `fetchUserData()` function is an example of using the Fetch API to retrieve data from an API. It uses async/await syntax to handle the asynchronous nature of the Fetch API.
+The `script.js` file contains the code that solves each of the problems. Each solution is contained within its own function.
 
 ### script2.js
 
