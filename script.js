@@ -64,12 +64,13 @@ document.getElementById("fetchButton").addEventListener("click", async () => {
 // END OF PROBLEM NO 4
 
 // START OF PROBLEM NO 5
+// As test is not defined in the code, I am assuming that it is a jest test case, that's why it in written as string here
 `test("reverseString function exists", () => {
   expect(reverseString).toBeDefined();
 });
 
 test("String reverses", () => {
-  expect(reverseString("abcd")).toEqual("dcba");
+  expect(reverseString("hello")).toEqual("olleh");
 });
 
 test("String reverses with uppercase", () => {
