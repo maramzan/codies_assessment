@@ -24,4 +24,6 @@ The `script2.js` file handles the UI behavior of the project. It adds event list
 
 ## Running the Code
 
-To run the code, open the `index.html` file in a web browser. You can view the code for each problem by clicking the "Show Code" button.
+To run the code, you should use a local server to avoid CORS errors. If you're using Visual Studio Code, you can use the "Live Server" extension to serve your project.
+
+You can view the code for each problem by clicking the "Show Code" button.
