@@ -16,6 +16,7 @@ showCodeBtns.forEach((btn) => {
       document.getElementById(`code-snippet${questionNo}`).textContent =
         sectionCode;
     } else {
+      btn.textContent = "Show Code";
       document.getElementById(`code-snippet${questionNo}`).textContent = "";
     }
   });
